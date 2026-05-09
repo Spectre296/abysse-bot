@@ -8,7 +8,7 @@ const commands = [
     .setDescription("Affiche les infos d'un utilisateur")
     .addUserOption(option =>
       option.setName('user')
-        .setDescription('L'utilisateur à lookup')
+        .setDescription("L'utilisateur à lookup")
         .setRequired(true))
 ].map(cmd => cmd.toJSON())
 const rest = new REST({ version: '10' }).setToken(TOKEN)
