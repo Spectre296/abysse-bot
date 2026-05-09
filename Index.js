@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, EmbedBuilder } = require('discord.js')
-const TOKEN = 'MTUwMjQxNDA2MjEyNDkyOTA4NA.GE0dhK.MKD5VFcz41Picg9eFzuKmCcvCTj1lx6bV3fJVA'
-const CLIENT_ID = '1502414062124929084 '
+const TOKEN = process.env.TOKEN
+const CLIENT_ID = process.env.CLIENT_ID
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers] })
 const commands = [
   new SlashCommandBuilder()
