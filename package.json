@@ -1,12 +1,8 @@
-[
-  {
-    "prenom": "SOFIANE",
-    "nom": "ZAROUAL",
-    "date_naissance": "01/01/1990",
-    "email": "exemple@mail.com",
-    "phone": "0600000000",
-    "adresse": "1 rue exemple",
-    "code_postal": "75000",
-    "ville": "Paris"
+{
+  "name": "abysse-lookup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.0.0"
   }
-]
+}
