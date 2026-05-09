@@ -5,7 +5,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBit
 const commands = [
   new SlashCommandBuilder()
     .setName('lookup')
-    .setDescription('Affiche les infos d'un utilisateur')
+    .setDescription("Affiche les infos d'un utilisateur")
     .addUserOption(option =>
       option.setName('user')
         .setDescription('L'utilisateur à lookup')
